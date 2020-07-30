@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+  background-image: linear-gradient(to top, #e4c5c5 0%, #e76561 100%);
 }
 
 h1 {
@@ -34,7 +34,7 @@ h1 {
 
 .description {
   width: 1000px;
-  background-color: #48d1cc;
+  background-color: #6d6c81;
   padding: 1%;
   border-radius: 5px;
   margin: 10px;
