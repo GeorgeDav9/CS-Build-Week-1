@@ -135,7 +135,7 @@ function App() {
               console.log(speed);
             }
           }}
-        >
+        > slow down
           <i class="fas fa-backward" />
         </button>
         
@@ -149,7 +149,7 @@ function App() {
               runGame();
             }
           }}
-        >
+        > pause/play
           {running ? <i class="fas fa-pause" /> : <i class="fas fa-play" />}
         </button>
         <button
@@ -159,14 +159,14 @@ function App() {
               console.log(speed);
             }
           }}
-        >
+        > speed up
           <i class="fas fa-fast-forward" />
         </button>
         <button
           onClick={() => {
             setGrid(emptyGrid());
           }}
-        >
+        > redo
           <i class="fas fa-redo" />
         </button>
         <button
@@ -182,7 +182,7 @@ function App() {
 
             setGrid(rows);
           }}
-        >
+        > random
           <i class="fas fa-question" />
         </button>
       </div>
