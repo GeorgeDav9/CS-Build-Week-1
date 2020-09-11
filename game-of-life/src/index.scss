@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    background-image: linear-gradient(to top, #e2a49c 0%, #e2746c 100%);
+  }
+  
+  h1 {
+    font-family: "Raleway", sans-serif;
+    color: white;
+  }
+  
+  .page-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .grid-display {
+    width: 1000px;
+  }
+  
+  .button-container {
+    z-index: 10;
+    border-radius: 5%;
+    color: grey;
+    border: 10px;
+    margin: 1%;
+    button {
+      width: 200px;
+      height: 30px;
+    }
+  }
+  
+  .description {
+    width: 1000px;
+    background-color: #5a6f8b;
+    padding: 1%;
+    border-radius: 5px;
+    margin: 10px;
+    h2 {
+      font-family: "Raleway", sans-serif;
+      margin-left: 20px;
+    }
+    ul {
+      li {
+        font-family: "Raleway", sans-serif;
+      }
+    }
+  }
